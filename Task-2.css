@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    border: solid;
+    margin-top: 150px;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+.Form:hover{
+    color: blue;
+}
+input:required{
+    background-color: blueviolet;
+    color:red;}
