@@ -1,0 +1,70 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 30px;
+}
+Image>img{
+    position: relative;
+    right: 60px;
+    float: left;
+    border-radius: 40%;
+}
+.icons{
+    height: 50px;
+    padding:30px;
+}
+    
+@media screen and (max-width:428px) {
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-between;
+        background-color: black;
+        font-size: 30px;
+    }
+    Image>img{
+        height: 250px;
+        width: 250px;
+    }
+    section>b{
+        background-color: deepskyblue;
+    }
+
+}
+@media screen and (min-width:428px) and (max-width:768px){ 
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-between;
+        background-color: black;
+        font-size: 30px;
+    }
+    Image>img{
+        height: 250px;
+        width: 250px;
+    }
+    section>b{
+        background-color: orangered;
+    }
+}   
+@media screen and (max-width:1024px){ 
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-between;
+        background-color: black;
+        font-size: 30px;
+    }
+    Image>img{
+        height: 250px;
+        width: 250px;
+    }
+   
+}   
+ 
